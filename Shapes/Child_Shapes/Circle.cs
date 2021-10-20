@@ -4,13 +4,22 @@ namespace Shapes
 {
     public class Circle : Shape
     {
+        public double radius { get; private set; }
+
+        public Circle(int radius)
+        {
+            this.radius = radius;
+        }
+
         protected override void CalculateAreaOfFigure()
         {
-            throw new NotImplementedException();
+            areaOfFigure = (radius * radius) * 3.1415926;
         }
+
         public override double GetAreaOfFigure()
         {
-            throw new NotImplementedException();
+            CalculateAreaOfFigure();
+            return areaOfFigure;
         }
     }
 }

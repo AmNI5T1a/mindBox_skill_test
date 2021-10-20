@@ -9,8 +9,8 @@ namespace Main
         static void Main(string[] args)
         {
             List<Shape> list_OfShapes = new List<Shape>();
-            list_OfShapes.Add(new Circle());
-            list_OfShapes.Add(new Triangle());
+            //list_OfShapes.Add(new Circle(273));
+            //list_OfShapes.Add(new Triangle(24, 1, 1, 1));
 
             foreach (Shape tempShape in list_OfShapes)
                 System.Console.WriteLine(tempShape.GetAreaOfFigure());

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Shapes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Shapes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shapes.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Shapes/1.0.0": {
+      "type": "project",
+      "path": "../Shapes/Shapes.csproj",
+      "msbuildProject": "../Shapes/Shapes.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Shapes >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Timur\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Documents\\vs-code_proj\\mindBox_skill_test\\Shapes\\Shapes.csproj": {
+              "projectPath": "D:\\Documents\\vs-code_proj\\mindBox_skill_test\\Shapes\\Shapes.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

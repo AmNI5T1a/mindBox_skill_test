@@ -2,6 +2,6 @@ namespace Shapes.Interfaces
 {
     public interface IRectangular
     {
-        void CalculateAndReturnIfItIsRectangularFigure();
+        bool CalculateAndReturnIfItIsRectangularFigure();
     }
 }

@@ -1,0 +1,12 @@
+D:\Documents\vs-code_proj\mindBox_skill_test\Shapes\bin\Debug\net5.0\Shapes.deps.json
+D:\Documents\vs-code_proj\mindBox_skill_test\Shapes\bin\Debug\net5.0\Shapes.dll
+D:\Documents\vs-code_proj\mindBox_skill_test\Shapes\bin\Debug\net5.0\ref\Shapes.dll
+D:\Documents\vs-code_proj\mindBox_skill_test\Shapes\bin\Debug\net5.0\Shapes.pdb
+D:\Documents\vs-code_proj\mindBox_skill_test\Shapes\obj\Debug\net5.0\Shapes.csprojAssemblyReference.cache
+D:\Documents\vs-code_proj\mindBox_skill_test\Shapes\obj\Debug\net5.0\Shapes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\vs-code_proj\mindBox_skill_test\Shapes\obj\Debug\net5.0\Shapes.AssemblyInfoInputs.cache
+D:\Documents\vs-code_proj\mindBox_skill_test\Shapes\obj\Debug\net5.0\Shapes.AssemblyInfo.cs
+D:\Documents\vs-code_proj\mindBox_skill_test\Shapes\obj\Debug\net5.0\Shapes.csproj.CoreCompileInputs.cache
+D:\Documents\vs-code_proj\mindBox_skill_test\Shapes\obj\Debug\net5.0\Shapes.dll
+D:\Documents\vs-code_proj\mindBox_skill_test\Shapes\obj\Debug\net5.0\ref\Shapes.dll
+D:\Documents\vs-code_proj\mindBox_skill_test\Shapes\obj\Debug\net5.0\Shapes.pdb
