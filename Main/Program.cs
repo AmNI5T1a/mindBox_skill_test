@@ -1,5 +1,6 @@
 ﻿using System;
 using Shapes;
+using Shapes.Interfaces;
 using System.Collections.Generic;
 
 namespace Main
@@ -8,12 +9,12 @@ namespace Main
     {
         static void Main(string[] args)
         {
-            List<Shape> list_OfShapes = new List<Shape>();
-            //list_OfShapes.Add(new Circle(273));
-            //list_OfShapes.Add(new Triangle(24, 1, 1, 1));
+            Circle shapeExample = new Circle(23);
+            System.Console.WriteLine(shapeExample.GetAreaOfFigure());
 
-            foreach (Shape tempShape in list_OfShapes)
-                System.Console.WriteLine(tempShape.GetAreaOfFigure());
+            Triangle triangle = new Triangle(2, 2, 2);
+            System.Console.WriteLine(triangle.GetAreaOfFigure());
+            System.Console.WriteLine(triangle.CalculateAndReturnIfItIsRectangularFigure(23));
         }
     }
 }
