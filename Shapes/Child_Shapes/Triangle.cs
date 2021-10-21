@@ -25,7 +25,7 @@ namespace Shapes
         }
         protected override void CalculateAreaOfFigure()
         {
-            // Gerone's formule
+            // * Gerone's formule
             double semi_perimetr = ((points[0] + points[1] + points[2]) / 2);
             areaOfFigure = Math.Sqrt(semi_perimetr * (semi_perimetr - points[0]) * (semi_perimetr - points[1]) * (semi_perimetr - points[2]));
         }
@@ -48,9 +48,6 @@ namespace Shapes
 
             points.Remove(potentialHypotenuse);
 
-            double hypoSquare = Math.Round(potentialHypotenuse * potentialHypotenuse);
-            double legsSquare = Math.Round(points[0] * points[0]) + (points[1] * points[1]);
-
             if (Math.Round(potentialHypotenuse * potentialHypotenuse) != Math.Round(points[0] * points[0]) + (points[1] * points[1]))
                 return false;
 
@@ -59,6 +56,7 @@ namespace Shapes
 
         public void ChangeTrianglePoints(double firstPoint, double secondPoint, double thirdPoint)
         {
+            // TODO: rework it
             points.Clear();
             points.Add(firstPoint);
             points.Add(secondPoint);
