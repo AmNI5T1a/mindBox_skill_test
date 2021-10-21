@@ -1,7 +1,7 @@
 ﻿using System;
-using Shapes;
-using Shapes.Interfaces;
 using System.Collections.Generic;
+
+using Tests;
 
 namespace Main
 {
@@ -9,12 +9,8 @@ namespace Main
     {
         static void Main(string[] args)
         {
-            Circle shapeExample = new Circle(23);
-            System.Console.WriteLine(shapeExample.GetAreaOfFigure());
-
-            Triangle triangle = new Triangle(2, 2, 2);
-            System.Console.WriteLine(triangle.GetAreaOfFigure());
-            System.Console.WriteLine(triangle.CalculateAndReturnIfItIsRectangularFigure(23));
+            Circle_TEST circleUnitTest = new Circle_TEST(3);
+            System.Console.WriteLine(circleUnitTest.Act());
         }
     }
 }

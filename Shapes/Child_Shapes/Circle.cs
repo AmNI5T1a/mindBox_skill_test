@@ -21,5 +21,7 @@ namespace Shapes
             CalculateAreaOfFigure();
             return areaOfFigure;
         }
+
+        public void ChangeCircleRadius(int newCircleRadius) => this.radius = newCircleRadius;
     }
 }
